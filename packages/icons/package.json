@@ -1,0 +1,33 @@
+{
+  "name": "@sailor-extension/icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "icon": "node ./scripts/generateIcon.js",
+    "build": "pnpm run icon && gulp compile"
+  },
+  "files": [
+    "lib",
+    "es"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/core": "^6.5.1",
+    "lodash": "^4.17.21",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-typescript": "^5.0.1",
+    "merge2": "^1.4.1",
+    "through2": "^4.0.2"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.6"
+  }
+}

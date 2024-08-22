@@ -1,0 +1,48 @@
+:root {
+  background-color: #fff;
+  font-family: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "sans-serif";
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 滚动条（仅兼容webkit内核浏览器） */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c4c8cd;
+  border-radius: 7px;
+  min-height: 14px;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #7F8391;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #7F8391;
+}
+
+.as-modal-mask,
+.as-modal-wrap,
+.as-message {
+    position: absolute !important;
+}
+
+.as-drawer .as-drawer-content-wrapper {
+  transition: all 0.3s, width 0s;
+}
+
+button .as-wave {
+  display: none !important;
+}

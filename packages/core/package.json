@@ -1,0 +1,30 @@
+{
+  "name": "@sailor-extension/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "gulp compile"
+  },
+  "files": [
+    "lib",
+    "es"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sailor-extension/icons": "workspace:^",
+    "@sailor-extension/utils": "workspace:^"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-typescript": "^5.0.1",
+    "merge2": "^1.4.1"
+  }
+}

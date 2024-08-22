@@ -1,0 +1,35 @@
+{
+    "name": "sailor-pkg",
+    "description": "Sailor for AnyShare",
+    "private": true,
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "dev": "wxt",
+        "dev:firefox": "wxt -b firefox",
+        "build": "wxt build",
+        "build:firefox": "wxt build -b firefox",
+        "zip": "wxt zip",
+        "zip:firefox": "wxt zip -b firefox",
+        "compile": "tsc --noEmit",
+        "postinstall": "wxt prepare"
+    },
+    "dependencies": {
+        "@sailor-extension/utils": "workspace:^",
+        "@sailor-extension/core": "workspace:^",
+        "@ant-design/cssinjs": "^1.21.0",
+        "@ant-design/icons": "^5.3.7",
+        "antd": "^5.19.2",
+        "classnames": "^2.5.1",
+        "dayjs": "^1.11.11",
+        "qiankun": "^2.10.16",
+        "react-draggable": "^4.4.6",
+        "react-resizable": "^3.0.5"
+    },
+    "devDependencies": {
+        "@types/react-resizable": "^3.0.8",
+        "@wxt-dev/module-react": "^1.0.0",
+        "vite-plugin-svgr": "^4.2.0",
+        "wxt": "^0.18.10"
+    }
+}

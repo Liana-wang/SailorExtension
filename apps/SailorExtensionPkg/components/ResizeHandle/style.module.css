@@ -1,0 +1,11 @@
+.handle-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    cursor: ew-resize;
+    box-sizing: border-box;
+    z-index: 100001;
+    user-select: none;
+}

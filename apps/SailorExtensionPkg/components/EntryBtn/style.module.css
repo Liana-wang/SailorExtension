@@ -1,0 +1,34 @@
+.entry-group {
+    position: fixed;
+    width: 42px;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.entry-group:hover,
+.entry-group:active,
+.entry-group:focus {
+    width: 55px;
+    outline: none;
+    transition: width 0.2s ease-in-out 0s, bottom 0s ease 0s;
+}
+
+.entry-btn {
+    width: 100%;
+    height: 36px;
+    border: 0;
+    border-right: 0;
+    border-radius: 42px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 0.15);
+    outline: none !important;
+}
+
+.entry-btn:hover {
+    background: #f3f4f6 !important;
+    border: 0 !important;
+    border-right: 0 !important;
+    transition: all 0.2s ease-in-out 0s, bottom 0s ease 0s;
+}
